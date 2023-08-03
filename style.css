@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(161, 213, 255);
+}
+
+h1 {
+    background-color: rgb(217, 237, 255);
+    color: black;
+    font-style: small-caps;
+}
+
+p {
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+#ded
+{
+    float: right;
+}
+
+canvas
+{
+   border-radius: 20px;
+   border: 5px solid black;
+   animation-name: hehe;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+   margin-top: 170px;
+}
+
+@keyframes hehe {
+    from {box-shadow: 1px 1px 38px grey;}
+    to {box-shadow: 1px 1px 38px white;}
+}
+
+#ti 
+{
+ float: right; 
+}
+
+span {
+    font-size: xx-large;
+}
